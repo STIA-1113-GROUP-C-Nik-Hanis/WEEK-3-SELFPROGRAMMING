@@ -1,0 +1,22 @@
+package NumericalData;
+
+public class IntegerRemainder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = 45 ;
+		int num2 = 2 ;
+		int num3 = 8 ;
+		int num4 = 11 ;
+		int num5 = 20 ;
+		int num6 = 6 ;
+		int num7 = 0 ;
+		
+		System.out.println("The answer is: " + (num1 % num6));
+		System.out.println("The answer is: " + (num2 % num2));
+		System.out.println("The answer is: " + (num3 % num5));
+		System.out.println("The answer is: " + (num4 % num7));
+
+	}
+
+}
