@@ -1,0 +1,5 @@
+The answer is: 3
+The answer is: 0
+The answer is: 8
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at NumericalData.IntegerRemainder.main(IntegerRemainder.java:18)
