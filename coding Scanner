@@ -1,0 +1,90 @@
+package NumericalData;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int number1;
+		int number2;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		int number6 = 66;
+		float number7 = 77;
+		float number8 = 100;
+		double number9;
+		double number10 = 99;
+		
+		int sum;
+		int sum2; 
+		int sum3; 
+		float sum4;
+		double sum5;
+		int average;
+		double sum6;
+		
+		String name;
+		String state;
+		char grade;
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.print ("Enter your name : ");
+		name = scanMe.nextLine();
+		
+		System.out.print ("Enter your state : ");
+		state = scanMe.nextLine();
+		
+		System.out.print ("Enter your CGPA : ");
+		number9 = scanMe.nextDouble();
+		
+		System.out.print ("Enter your grade for Mtahematics in SPM : ");
+		grade = scanMe.next().charAt(0);
+		
+		System.out.print ("Enter number1 : ");
+		number1 = scanMe.nextInt();
+		
+		System.out.print ("Enter number2 : ");
+		number2 = scanMe.nextInt();
+		
+		System.out.println("\nMy name is = " + name );
+		System.out.println("State = " + state );
+		System.out.println("My CGPA is = " + number9 );
+		System.out.println("My grade mathemathics SPM is = " + grade );
+		System.out.println("Number1 is = " + number1 );
+		System.out.println("Number2 is = " + number2 );
+		
+		
+		sum = number1 + number2+ number3 + number4 + number5 + number6;
+		sum2 = number6 - number1;		
+	    sum3 = number1 * number2 * number3 * number4 * number5 * number6;
+		sum4 = number8 / number7;
+	    sum5 = number10 / number9;
+	    average = sum/6;		
+	    sum6 = sum4 + sum5;
+	    
+	    System.out.print("\nThe sum is ");
+	    System.out.println(sum);
+	    
+	    System.out.print("The sum2 is ");
+	    System.out.println(sum2);
+	    
+	    System.out.printf("The sum3 is %,d" , sum3);
+	    
+	    System.out.printf("\nThe sum4 is %.2f " , sum4);
+	    
+	    System.out.print("\nThe sum5 is ");
+	    System.out.print(sum5);
+	    
+	    System.out.print("\nThe average is ");
+	    System.out.print(average);
+	    
+	    System.out.printf("\nThe sum6 is %.2f" , sum6);
+	    
+	    
+	}
+
+}
